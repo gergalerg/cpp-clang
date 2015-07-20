@@ -7,12 +7,15 @@ int main()
 {
 	int a = 100;
 	int b = 200;
+	int c= 300;
 
 	cout << "Before swap, value of a: " << a << "B: " << b << endl;
 
 	swap(a, b);
+	swap(a,c);
 
 	cout << "After swap, value of a: " << a << "B: " << b << endl;
+	cout << "After swap, value of a: " << a << "C: " << c << endl;
 	return 0;
 }
 
