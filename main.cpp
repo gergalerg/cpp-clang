@@ -16,6 +16,7 @@ public:
     // access methods
     char const* data() const {}
     size_t length() const { return name.size(); }
+    size_t another_length() const { return name.size(); }
     bool is_empty() const { if ()}
 };
 
