@@ -1,4 +1,5 @@
 // while.cpp -- the while loop
+// This is an example
 #include <iostream>
 #include <string>
 const int ArSize = 20;
